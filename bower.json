@@ -1,0 +1,17 @@
+{
+  "name": "knockout-basics",
+  "homepage": "https://github.com/fsarachu/knockout-basics",
+  "authors": [
+    "fsarachu <fsarachu@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

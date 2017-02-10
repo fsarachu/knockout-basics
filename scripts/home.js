@@ -1,5 +1,7 @@
-var viewModel = function () {
-    this.name = ko.observable("Jim");
-}
+$(function () {
+    var viewModel = function () {
+        this.name = ko.observable("Jim");
+    };
 
-ko.applyBindings(new viewModel());
+    ko.applyBindings(new viewModel());
+});

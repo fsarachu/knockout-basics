@@ -2,13 +2,20 @@
   "name": "knockout-basics",
   "private": true,
   "dependencies": {
-    "bootstrap": "~4.0.0-alpha.6"
+    "bootstrap": "~4.0.0-alpha.6",
+    "slidebars": "^2.0.2"
   },
   "overrides": {
     "bootstrap": {
       "main": [
         "scss/bootstrap.scss",
         "dist/js/bootstrap.js"
+      ]
+    },
+    "slidebars": {
+      "main": [
+        "dist/slidebars.min.css",
+        "dist/slidebars.min.js"
       ]
     }
   },

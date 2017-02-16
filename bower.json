@@ -3,7 +3,8 @@
   "private": true,
   "dependencies": {
     "bootstrap": "~4.0.0-alpha.6",
-    "slidebars": "^2.0.2"
+    "slidebars": "^2.0.2",
+    "openSans": "https://google-fonts.azurewebsites.net/googleFonts/openSans?family=Open+Sans:400,400i,700"
   },
   "overrides": {
     "bootstrap": {

@@ -1,11 +1,29 @@
-.product-view {
-  height: 200px;
-  padding: 20px;
+.product {
+  text-align: center;
 
-  img {
-    display: block;
-    height: 100%;
-    max-width: 100%;
-    margin: 0 auto;
+  &-view {
+    height: 150px;
+    padding: 20px;
+
+    img {
+      display: block;
+      max-height: 100%;
+      max-width: 100%;
+      margin: 0 auto;
+    }
+  }
+
+  &-title {
+    font-size: 1.2rem;
+  }
+
+  &-description {
+    font-size: 0.8rem;
+  }
+
+  &-price {
+    font-weight: bold;
+    color: $gray;
   }
 }
+

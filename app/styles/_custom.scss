@@ -27,7 +27,7 @@
 
   &-view {
     height: 150px;
-    padding: 20px;
+    padding: 10px 20px;
 
     img {
       display: block;
@@ -37,19 +37,26 @@
     }
   }
 
+  &-info {
+    padding: 10px 20px;
+  }
+
   &-title {
-    font-size: 1.2rem;
+    margin-bottom: 0;
+    font-size: $font-size-base;
+    font-weight: $font-weight-bold;
+    line-height: $line-height-sm;
+    color: $gray-light;
     @include ellipsis();
   }
 
   &-description {
-    font-size: 0.8rem;
+    font-size: $font-size-xs;
     color: $gray-light;
   }
 
   &-price {
-    font-weight: bold;
+    font-weight: $font-weight-bold;
     color: $gray;
   }
 }
-

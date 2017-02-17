@@ -50,11 +50,6 @@
     @include ellipsis();
   }
 
-  &-description {
-    font-size: $font-size-xs;
-    color: $gray-light;
-  }
-
   &-price {
     font-weight: $font-weight-bold;
     color: $gray-light;

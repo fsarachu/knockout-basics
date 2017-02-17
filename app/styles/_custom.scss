@@ -1,6 +1,7 @@
 .product {
   text-align: center;
   margin: $grid-gutter-width-base/2 0;
+  height: 300px;
 
   &-view {
     height: 150px;
@@ -16,6 +17,7 @@
 
   &-title {
     font-size: 1.2rem;
+    @include ellipsis();
   }
 
   &-description {

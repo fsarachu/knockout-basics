@@ -57,6 +57,14 @@
 
   &-price {
     font-weight: $font-weight-bold;
-    color: $gray;
+    color: $gray-light;
+
+    .price-old {
+      display: inline-block;
+      margin: 0 .5rem;
+      color: lighten($gray-light, 30);
+      //font-weight: $font-weight-normal;
+      text-decoration: line-through;
+    }
   }
 }

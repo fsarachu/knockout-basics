@@ -46,7 +46,7 @@
     font-size: $font-size-base;
     font-weight: $font-weight-bold;
     line-height: $line-height-sm;
-    color: $gray-light;
+    color: $gray;
     @include ellipsis();
   }
 

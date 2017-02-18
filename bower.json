@@ -4,7 +4,8 @@
   "dependencies": {
     "bootstrap": "~4.0.0-alpha.6",
     "openSans": "https://google-fonts.azurewebsites.net/googleFonts/openSans?family=Open+Sans:400,400i,600",
-    "font-awesome": "^4.7.0"
+    "font-awesome": "^4.7.0",
+    "knockout": "^3.4.1"
   },
   "overrides": {
     "bootstrap": {

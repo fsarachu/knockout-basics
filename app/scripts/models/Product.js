@@ -6,6 +6,6 @@ var Product = function (data) {
   this.brand = data.brand || '';
   this.price = data.price || 0;
   this.discount = data.discount || 0;
-}
+};
 
 export default Product;

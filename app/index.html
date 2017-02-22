@@ -41,7 +41,10 @@
         </div>
         <div class="product-info">
           <h3 data-bind="text: products[0].title" class="product-title"></h3>
-          <p class="product-price">$ <span data-bind="text: products[0].price"></span></p>
+          <p>
+            <span data-bind="text: products[0].salePrice" class="product-price"></span>
+            <span data-bind="text: products[0].price" class="product-price__old"></span>
+          </p>
         </div>
       </div>
     </div>

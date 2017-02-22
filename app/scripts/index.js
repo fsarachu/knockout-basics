@@ -1,5 +1,11 @@
 import sampleData from './data.js';
 
-sampleData.products.forEach(function (product) {
-  console.log(`${product.id}: ${product.title} - $ ${product.price}`);
-});
+var app = {};
+
+app.metadata = {
+  pageTitle: 'Products'
+};
+
+app.products = sampleData.products;
+
+ko.applyBindings(app);

@@ -11,7 +11,7 @@
 
   <!-- build:css styles/vendor.css -->
   <!-- bower:css -->
-  <link rel="stylesheet" href="/bower_components/openSans/openSans.css" />
+  <link rel="stylesheet" href="/bower_components/openSans/openSans.css"/>
   <!-- endbower -->
   <!-- endbuild -->
 
@@ -37,109 +37,11 @@
           <span class="love"></span>
         </div>
         <div class="product-view">
-          <img src="images/aviator_classic_gold_sunglasses.jpg" alt="A pair of sunglasses">
+          <img data-bind="attr: {src: products[0].image, alt: products[0].title}" src="" alt="">
         </div>
         <div class="product-info">
-          <h3 class="product-title">Aviator Classic Gold Sunglasses</h3>
-          <p class="product-price">$ 35.99 <span class="price-old">$75.00</span></p>
-        </div>
-      </div>
-    </div>
-    <div class="col-sm-6 col-md-4 col-lg-3">
-      <div class="product card">
-        <div class="product-actions">
-          <span class="love"></span>
-        </div>
-        <div class="product-view">
-          <img src="images/cable_minna_beanie.jpg" alt="A beanie">
-        </div>
-        <div class="product-info">
-          <h3 class="product-title">Cable Minna Beanie</h3>
-          <p class="product-price">$ 5.99</p>
-        </div>
-      </div>
-    </div>
-    <div class="col-sm-6 col-md-4 col-lg-3">
-      <div class="product card">
-        <div class="product-actions">
-          <span class="love"></span>
-        </div>
-        <div class="product-view">
-          <img src="images/preston_flap_wallet.jpg" alt="A wallet">
-        </div>
-        <div class="product-info">
-          <h3 class="product-title">Preston Flap Wallet</h3>
-          <p class="product-price">$ 10.00</p>
-        </div>
-      </div>
-    </div>
-    <div class="col-sm-6 col-md-4 col-lg-3">
-      <div class="product card">
-        <div class="product-actions">
-          <span class="loved"></span>
-        </div>
-        <div class="product-view">
-          <img src="images/floral_perforated_belt.jpg" alt="A belt">
-        </div>
-        <div class="product-info">
-          <h3 class="product-title">Floral Perforated Belt</h3>
-          <p class="product-price">$ 7.90</p>
-        </div>
-      </div>
-    </div>
-    <div class="col-sm-6 col-md-4 col-lg-3">
-      <div class="product card">
-        <div class="product-actions">
-          <span class="love"></span>
-        </div>
-        <div class="product-view">
-          <img src="images/fuzzy_earflap_tibetan_beanie.jpg" alt="A beanie">
-        </div>
-        <div class="product-info">
-          <h3 class="product-title">Fuzzy Earflap Tibetan Beanie</h3>
-          <p class="product-price">$ 5.00</p>
-        </div>
-      </div>
-    </div>
-    <div class="col-sm-6 col-md-4 col-lg-3">
-      <div class="product card">
-        <div class="product-actions">
-          <span class="loved"></span>
-        </div>
-        <div class="product-view">
-          <img src="images/junior's_cowgirl_hat.jpg" alt="A hat">
-        </div>
-        <div class="product-info">
-          <h3 class="product-title">Junior&apos;s Cowgirl Hat</h3>
-          <p class="product-price">$ 8.99</p>
-        </div>
-      </div>
-    </div>
-    <div class="col-sm-6 col-md-4 col-lg-3">
-      <div class="product card">
-        <div class="product-actions">
-          <span class="love"></span>
-        </div>
-        <div class="product-view">
-          <img src="images/reversible_belt.jpg" alt="A belt">
-        </div>
-        <div class="product-info">
-          <h3 class="product-title">Reversible Belt</h3>
-          <p class="product-price">$ 12.00 <span class="price-old">$19.99</span></p>
-        </div>
-      </div>
-    </div>
-    <div class="col-sm-6 col-md-4 col-lg-3">
-      <div class="product card">
-        <div class="product-actions">
-          <span class="love"></span>
-        </div>
-        <div class="product-view">
-          <img src="images/sun_child_wallet.jpg" alt="A wallet">
-        </div>
-        <div class="product-info">
-          <h3 class="product-title">Sun Child Wallet</h3>
-          <p class="product-price">$ 8.50</p>
+          <h3 data-bind="text: products[0].title" class="product-title"></h3>
+          <p class="product-price">$ <span data-bind="text: products[0].price"></span></p>
         </div>
       </div>
     </div>

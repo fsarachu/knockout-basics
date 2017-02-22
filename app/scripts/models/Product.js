@@ -6,6 +6,7 @@ var Product = function (data) {
   this.brand = ko.observable(data.brand || '');
   this.price = ko.observable(data.price || 0);
   this.discount = ko.observable(data.discount || 0);
+  this.image = ko.observable(data.image || '');
 };
 
 export default Product;
